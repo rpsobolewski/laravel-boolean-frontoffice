@@ -22,18 +22,21 @@ export default {
     }
 }
 
+
 </script>
 
 <template>
-    <div class="img_home text-white d-flex align-items-end justify-content-center">
-        <h1 class="mb-5">DREAM COCKTAILS JUST A CLICK AWAY</h1>
+    <div class="img_home text-white text-center">
+        <h1 style="color: darkorange;" class="py-5">THE MASKED MARTINI</h1>
+        <h2 class="">Dream cocktails just a click away</h2>
     </div>
     <div style="background-color: #1e0904;">
         <div class="container pt-5">
             <h2 class="mb-5 text-center text-white">OUR PROPOSAL</h2>
             <div class="row">
                 <div class="col" v-for="cocktail in  cocktails ">
-                    <div class="card mb-5 demo cocktail_card" style="width: 18rem;">
+                    <div class="card mb-5 demo cocktail_card text-white"
+                        style="background-color: rgb(110, 73, 67); width: 18rem;">
                         <img :src="cocktail.strDrinkThumb" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">{{ cocktail.strDrink }}</h5>
