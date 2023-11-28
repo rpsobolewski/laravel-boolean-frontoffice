@@ -8,7 +8,7 @@ export default {
 
 <template>
     <div style="background-color: #1e0904;">
-        <div class="container py-5">
+        <div class="container main py-5 ">
             <div style="background-color: rgb(110, 73, 67);" class="p-5 mb-4 rounded-3 d-flex">
                 <div class="container-fluid py-5 text-center text-white">
                     <h1 style="color: darkorange;" class="display-5 fw-bold">About</h1>
@@ -34,4 +34,8 @@ export default {
     </div>
 </template>
 
-<style></style>
+<style>
+.main {
+    height: 85vh;
+}
+</style>
